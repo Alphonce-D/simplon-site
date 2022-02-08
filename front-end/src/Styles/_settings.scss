@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Nova Round', cursive;
+}
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+
+$color1 : #CD142A;
+$color2 : #1B3549;
+$black : #333333;
+$white : #ffffff;
+$grey : #494949;
