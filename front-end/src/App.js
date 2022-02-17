@@ -19,6 +19,7 @@ import Web from "./Pages/Web.jsx";
 import Mobile from "./Pages/Mobile.jsx";
 import Frontend from "./Pages/Frontend.jsx";
 import Backend from "./Pages/Backend.jsx";
+import './App.css';
 
 const App = () => {
   return (

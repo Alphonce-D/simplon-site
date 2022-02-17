@@ -1,11 +1,15 @@
 import React from "react";
 import Navbar from "../Components/Navbar.jsx";
+import SeFormer from "../Components/SeFormer.jsx";
+import Header from "../Components/Header.jsx";
+import "../Styles/Components/_header.scss";
 
 const Accueil = () => {
   return (
     <div>
       <Navbar />
-      <h1>HOME</h1>
+      <Header />
+      <SeFormer />
     </div>
   );
 };

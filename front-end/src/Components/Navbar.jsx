@@ -4,8 +4,10 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav>
-      <NavLink to="/">
-        <div className="logo">Simplon</div>
+      <NavLink to="/" activeClassName='active'>
+        <div className="logo">
+          <img src={require('../assets/logo-simplon.png')} alt="" />
+        </div>
       </NavLink>
       <label htmlFor="btn" className="icon">
         <span className="fa fa-bars"></span>

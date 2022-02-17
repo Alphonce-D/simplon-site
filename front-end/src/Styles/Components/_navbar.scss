@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
 
 nav {
-    background: #1b1b1b;
+    background: white;
+    border-bottom: solid rgb(201, 199, 199) 1px;
+
 }
 
 nav:after {
@@ -29,12 +31,11 @@ nav ul {
 nav ul li {
     float: left;
     display: inline-block;
-    background: #1b1b1b;
     margin: 0 5px;
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     line-height: 70px;
     text-decoration: none;
     font-size: 18px;
@@ -42,7 +43,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: white;
+    color: black;
     border-radius: 5px;
     box-shadow: 0 0 5px #CD142A,
         0 0 10px #CD142A;
@@ -59,6 +60,7 @@ nav ul ul {
     opacity: 0;
     visibility: hidden;
     transition: top .3s;
+    background-color: white;
 }
 
 nav ul ul ul {
@@ -78,11 +80,13 @@ nav ul ul li {
     float: none;
     display: list-item;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 nav ul ul li a {
     line-height: 50px;
-    color: white;
+    color: black;
 }
 
 nav ul ul li a:hover {
@@ -104,6 +108,22 @@ input {
 .fa-plus {
     font-size: 15px;
     margin-left: 40px;
+}
+
+.logo {
+    height: 4rem;
+}
+
+.logo img {
+    width: 10rem;
+    height: 4rem;
+}
+
+.active {
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #CD142A,
+        0 0 10px #CD142A;
 }
 
 @media all and (max-width: 1310px) {
@@ -149,7 +169,7 @@ input {
 
     .show {
         display: block;
-        color: white;
+        color: black;
         font-size: 18px;
         padding: 0 15px;
         line-height: 70px;
@@ -162,7 +182,7 @@ input {
 
     .icon {
         display: block;
-        color: white;
+        color: black;
         position: absolute;
         top: 0;
         right: 40px;
